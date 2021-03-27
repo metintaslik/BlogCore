@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewData["Title"] = "Kategori";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Kategori</h1>
+
+<script src="~/js/categories.createOrUpdate.js"></script>
+
+<div class="form-group">
+    <label for="category"><b>Kategori İsmi <font color="red">*</font></b></label>
+    <input type="text" class="form-control-sm" id="category-name" required/>
+</div>
+<button id="create-category" type="button" class="btn btn-primary">Kaydet</button>
+
